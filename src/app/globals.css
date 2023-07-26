@@ -16,12 +16,20 @@
   }
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.scroll-container {
+  overflow-y: scroll;
+  scrollbar-width: thin;
+}
+
+/* Estilos para la barra de desplazamiento en navegadores WebKit */
+.scroll-container::-webkit-scrollbar {
+  width: 8px;
+}
+
+.scroll-container::-webkit-scrollbar-track {
+  scrollbar-color: #eaeaea;
+}
+
+.scroll-container::-webkit-scrollbar-thumb {
+  background-color: rgb(14 165 233);
 }
