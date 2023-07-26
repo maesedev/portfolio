@@ -14,7 +14,7 @@ export default function Home() {
                   soy <span className="text-teal-300 ">Santiago</span>
                </h1>
 
-               <p className="animate-fade-left animate-once animate-duration-1000 animate-delay-[2500ms] animate-ease-out">Apasionado desarrollador web y estudiante de la ingenieria en Ciencias de la Computacion e Inteligencia Artificial. </p>
+               <p className="animate-fade-left animate-once animate-duration-1000 animate-delay-[2500ms] animate-ease-out">Apasionado desarrollador web y estudiante de Ingenieria en Ciencias de la Computacion e Inteligencia Artificial. </p>
                <div className="flex gap-2">
 
                   <img className="animate-fade-left animate-once animate-duration-1000 animate-delay-[3500ms] animate-ease-out" src="/assets/linkedin.svg" alt="" />
@@ -119,7 +119,7 @@ export default function Home() {
                </div>
 
                <div className="max-w-md flex flex-col flex-wrap justify-center items-center ">
-                  <img className=" w-60 ml-7  transition-all hover:scale-90 " src="/assets/grow.svg" />
+                  <img className=" w-60 ml-7  transition-all hover:scale-90aaaaaaaaaaaaaaa " src="/assets/grow.svg" />
                   <div>
                      <h2 className="text-xl text-center font-medium mb-4">Hacer crecer Grafika Eclipse</h2>
                      <p className="mx-10 text-center font-extralight">Mi objetivo es hacer crecer Grafika Eclipse, una empresa/proyecto de desarrollo web cofundada por Felipe Parra y yo. Aunque se trata de un proyecto ambicioso, lo veo como una gran oportunidad para adquirir conocimientos y experiencias valiosas.</p>
