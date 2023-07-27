@@ -15,11 +15,16 @@ export default function Home() {
                </h1>
 
                <p className="animate-fade-left animate-once animate-duration-1000 animate-delay-[2500ms] animate-ease-out">Apasionado desarrollador web y estudiante de Ingenieria en Ciencias de la Computacion e Inteligencia Artificial. </p>
-               <div className="flex gap-2">
+               <div className="flex gap-2"> 
 
-                  <img className="animate-fade-left animate-once animate-duration-1000 animate-delay-[3500ms] animate-ease-out" src="/assets/linkedin.svg" alt="" />
+
+                  <a href="https://co.linkedin.com/in/maesedev" > <img className="animate-fade-left animate-once animate-duration-1000 animate-delay-[3500ms] animate-ease-out" src="/assets/linkedin.svg" alt="" /></a>
+<a href="mailto:santiagocolombiahoy@gmail.com"
                   <img className="animate-fade-up animate-once animate-duration-1000 animate-delay-[3800ms] animate-ease-out" src="/assets/email.svg" alt="" />
-                  <img className="animate-fade-right animate-once animate-duration-1000 animate-delay-[3500ms] animate-ease-out" src="/assets/github.svg" alt="" />
+</a>
+<a href="https://github.com/maesedev" >   
+   <img className="animate-fade-right animate-once animate-duration-1000 animate-delay-[3500ms] animate-ease-out" src="/assets/github.svg" alt="" />
+</a>
                </div>
             </div>
 
