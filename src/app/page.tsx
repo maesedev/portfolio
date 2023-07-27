@@ -119,7 +119,7 @@ export default function Home() {
                </div>
 
                <div className="max-w-md flex flex-col flex-wrap justify-center items-center ">
-                  <img className=" w-60 ml-7  transition-all hover:scale-90aaaaaaaaaaaaaaa " src="/assets/grow.svg" />
+                  <img className=" w-60 ml-7  transition-all hover:scale-90  " src="/assets/grow.svg" />
                   <div>
                      <h2 className="text-xl text-center font-medium mb-4">Hacer crecer Grafika Eclipse</h2>
                      <p className="mx-10 text-center font-extralight">Mi objetivo es hacer crecer Grafika Eclipse, una empresa/proyecto de desarrollo web cofundada por Felipe Parra y yo. Aunque se trata de un proyecto ambicioso, lo veo como una gran oportunidad para adquirir conocimientos y experiencias valiosas.</p>
