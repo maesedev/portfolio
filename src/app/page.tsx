@@ -19,7 +19,7 @@ export default function Home() {
 
 
                   <a href="https://co.linkedin.com/in/maesedev" > <img className="animate-fade-left animate-once animate-duration-1000 animate-delay-[3500ms] animate-ease-out" src="/assets/linkedin.svg" alt="" /></a>
-<a href="mailto:santiagocolombiahoy@gmail.com"
+<a href="mailto:santiagocolombiahoy@gmail.com">
                   <img className="animate-fade-up animate-once animate-duration-1000 animate-delay-[3800ms] animate-ease-out" src="/assets/email.svg" alt="" />
 </a>
 <a href="https://github.com/maesedev" >   
