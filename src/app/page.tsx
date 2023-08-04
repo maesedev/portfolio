@@ -131,6 +131,7 @@ export default function Home() {
                             <h2 className="text-xl text-center font-medium mb-4">Hacer crecer Grafika Eclipse</h2>
                             <p className="mx-10 text-center font-extralight">Mi objetivo es hacer crecer Grafika Eclipse, una empresa/proyecto de desarrollo web cofundada por Felipe Parra y yo. Aunque se trata de un proyecto ambicioso, lo veo como una gran oportunidad para adquirir conocimientos y experiencias valiosas.</p>
                         </div>
+
                     </div>
 
                 </div>
