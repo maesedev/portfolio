@@ -11,7 +11,7 @@ export default function Header() {
         <nav className="z-50 fixed w-screen backdrop-blur-sm border-gray-200  shadow-sm animate-fade-down animate-once animate-duration-1000 animate-delay-1000 animate-ease-out">
             <div className=" max-w-screen-xl flex  items-center justify-between mx-auto p-4">
                 <a href="/" className="flex items-center">
-                    <img src="assets/Logo.svg" className="h-14 mr-3" alt="Logo de santiago garzon y de maesedev" />
+                    <img src="assets/logo.svg" className="h-14 mr-3" alt="Logo de santiago garzon y de maesedev" />
                 </a>
                 <button onClick={() => { setOpenNav(!openNav) }} data-collapse-toggle="navbar-dropdown" type="button" className={"z-50 inline-flex items-center p-2 ml-3 text-base text-gray-200 rounded-lg md:hidden transition-transform    " + (openNav ? "  rotate-90  " : "") + " focus:outline-none  bg-gray-700 dark:focus:ring-gray-600"} aria-controls="navbar-dropdown" aria-expanded="false">
                     <span className="sr-only">Open main menu</span>
