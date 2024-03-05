@@ -6,22 +6,32 @@ const navItems = [
     title: "Experiencia",
     label: "experiencia",
     url: "/#experiencia",
+    className:""
   },
   {
     title: "Proyectos",
     label: "proyectos",
     url: "/#proyectos",
+    className:""
   },
   {
     title: "Sobre mí",
     label: "sobre-mi",
     url: "/#sobre-mi",
+    className:""
   },
   {
     title: "Contacto",
     label: "contacto",
     url: "mailto:santiagocolombiahoy@gmail.com",
+    className:""
   },
+  /*{
+    title: "Servicios",
+    label: "Servicios",
+    url: "/servicios",
+    className : "bg-indigo-500 text-white rounded-xl py-[.3rem] my-2 mx-3",
+  },*/
 ]
 ---
 
@@ -34,7 +44,7 @@ const navItems = [
     {
       navItems.map((link) => (
         <a
-          class="relative block px-2 py-2  transition hover:text-yellow-500 dark:hover:text-yellow-400"
+          class={"relative block px-2 py-2  transition hover:text-yellow-500 dark:hover:text-yellow-400 " + (link.className ?? "")}
           aria-label={link.label}
           href={link.url}
         >
