@@ -88,8 +88,7 @@
 
       // Eliminar el elemento <a> después de la descarga
       document.body.removeChild(link);
-    },
-    { once: true }
+    }
   );
 
   downloadLoader.addEventListener("animationend", () => {
